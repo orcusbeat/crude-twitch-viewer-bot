@@ -31,7 +31,7 @@ class Instance:
         self.auto_restart = auto_restart
 
         self.fully_initialized = False
-        self.refresh_timer_s = random.randint(480, 7200)
+        self.refresh_timer_s = random.randint(480, 10800)
 
         self.location_info = location_info
         if not self.location_info:
