@@ -1,6 +1,6 @@
 name: build
 
-on: [pull_request]
+on: workflow_dispatch
 
 env:
   PLAYWRIGHT_BROWSERS_PATH: 0
