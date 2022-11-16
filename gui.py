@@ -87,7 +87,7 @@ class GUI:
         path_to_toml = os.path.abspath(os.path.join(path_to_cwd, "pyproject.toml"))
         version = toml.load(path_to_toml)["tool"]["poetry"]["version"]
 
-        root.title(f"Crude twitch viewer bot | v{version} | jlplenio")
+        root.title(f"CTVB Test | v{version} | jlplenio")
 
         # separators
         separator_left = ttk.Separator(orient="vertical")
